@@ -1,0 +1,46 @@
+body {
+	background: #fff;
+	font: 100%/1.5 georgia;
+	max-width: 40em;
+	margin: 0 auto;
+	color: #333;
+}
+
+h1, p {
+	margin: 1em 0;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 150%;
+	text-shadow: 0 0 .1em #333;
+}
+
+article > section > h1 {
+	font-size: 135%;
+	text-shadow: 0 0 .1em blue;
+}
+
+section > section > h1 {
+	font-size: 120%;
+	text-shadow: 0 0 .1em red;
+}
+
+h1 + p {
+margin: -1em 0 1em;
+}
+p + p {
+	margin: -1em 0 1em;
+	text-indent: 1.5em;
+}
+article > section:last-child p {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1em;
+}

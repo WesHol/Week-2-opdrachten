@@ -1,0 +1,56 @@
+fieldset {
+	border: 0;
+	border-radius: 1em;
+	box-shadow: 0 0 1em currentColor;
+	padding: 1em;
+}
+
+fieldset + fieldset {
+	margin: 2em 0 0;
+}
+
+legend {
+	font-size: 1.2em;
+	padding: 2em 0 0;
+	list-style: none;
+}
+ol > li {
+	background: rgba(0,0,0,.1);
+	padding: .5em;
+	margin: 0;
+}
+
+input:not([type='radio']), textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.2em;
+	border-radius: .3em;
+	box-shadow: inset .1em .1em .2em rgba(0,0,0,.5);
+	appearance: none;
+	border: none;
+	transition: .5s;
+	margin: .3em 0;
+	padding: .2em;
+}
+
+input:hover {
+	padding: .4em .2em;
+}
+
+input:focus {
+	box-shadow: 5px 10px 5px #888888
+}
+
+
+body {
+	background: #fff;
+	font: 100%/1.5 georgia;
+	max-width: 20em;
+	margin: 0 auto;
+	color: #333;
+}
+
+form {
+	margin: 3em 0;
+}
